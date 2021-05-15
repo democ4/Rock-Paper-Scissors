@@ -1,0 +1,23 @@
+.title,.controller, .score,.message{
+    display: flex;
+    justify-content: center;
+}
+.score{
+    background-color: rgb(209, 248, 248);
+    width: 400px;
+    margin:auto;
+    justify-content: space-around;
+}
+.controller{
+    margin-top: 20px;
+}
+.message{
+    flex-direction: column;
+    align-items: center;
+}
+.message p{
+    margin : 3px;
+}
+#log{
+   margin: 5px; 
+}
